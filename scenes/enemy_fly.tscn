@@ -1,0 +1,75 @@
+[gd_scene load_steps=11 format=3 uid="uid://botlibdrtbmb1"]
+
+[ext_resource type="Texture2D" uid="uid://cmkdgkqbuk3do" path="res://assets/Sunny Land Collection Files/Assets/Characters/Enemies and NPC/flying-bird/spritesheets/flying-creature-cycle-skin.png" id="1_0bfme"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ethsa"]
+atlas = ExtResource("1_0bfme")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rxjfr"]
+atlas = ExtResource("1_0bfme")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wtam5"]
+atlas = ExtResource("1_0bfme")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qgdir"]
+atlas = ExtResource("1_0bfme")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u76bi"]
+atlas = ExtResource("1_0bfme")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w1x27"]
+atlas = ExtResource("1_0bfme")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sejsm"]
+atlas = ExtResource("1_0bfme")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_q5o6f"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ethsa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rxjfr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wtam5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qgdir")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u76bi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w1x27")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sejsm")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_c4a84"]
+radius = 7.73161
+
+[node name="Enemy" type="CharacterBody2D"]
+position = Vector2(283, 382)
+scale = Vector2(3, 3)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0.333328, 1.33333)
+sprite_frames = SubResource("SpriteFrames_q5o6f")
+frame_progress = 0.570224
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_c4a84")

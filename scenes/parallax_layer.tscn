@@ -1,0 +1,284 @@
+[gd_scene load_steps=8 format=4 uid="uid://m3oq45ynij4j"]
+
+[ext_resource type="Texture2D" uid="uid://bx2p4cremmgxf" path="res://assets/Sunny Land Collection Files/Assets/Environments/Winter/Layers/sky.png" id="1_64sgv"]
+[ext_resource type="Texture2D" uid="uid://cs8nr3a3rew1e" path="res://assets/Sunny Land Collection Files/Assets/Environments/Winter/Layers/mountains.png" id="2_qjlkn"]
+[ext_resource type="Texture2D" uid="uid://duns17c3o03ev" path="res://assets/Sunny Land Collection Files/Assets/Environments/Winter/Layers/mid-layer-a.png" id="3_fixrf"]
+[ext_resource type="Texture2D" uid="uid://b3ehb5a1o3j7n" path="res://assets/Sunny Land Collection Files/Assets/Environments/Winter/Layers/mid-layer-b.png" id="4_t7xub"]
+[ext_resource type="Texture2D" uid="uid://djcn2go4j1gy6" path="res://assets/Sunny Land Collection Files/Assets/Environments/Winter/Props/prop-sheet.png" id="5_82xyo"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gdtkj"]
+texture = ExtResource("5_82xyo")
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+13:0/0 = 0
+21:0/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+16:1/0 = 0
+17:1/0 = 0
+18:1/0 = 0
+19:1/0 = 0
+20:1/0 = 0
+21:1/0 = 0
+22:1/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+11:2/0 = 0
+13:2/0 = 0
+16:2/0 = 0
+17:2/0 = 0
+18:2/0 = 0
+19:2/0 = 0
+20:2/0 = 0
+21:2/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+16:3/0 = 0
+17:3/0 = 0
+18:3/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+11:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+14:5/0 = 0
+19:5/0 = 0
+20:5/0 = 0
+21:5/0 = 0
+22:5/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+9:6/0 = 0
+10:6/0 = 0
+11:6/0 = 0
+12:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+19:6/0 = 0
+20:6/0 = 0
+21:6/0 = 0
+22:6/0 = 0
+23:6/0 = 0
+24:6/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+10:7/0 = 0
+18:7/0 = 0
+19:7/0 = 0
+20:7/0 = 0
+21:7/0 = 0
+22:7/0 = 0
+23:7/0 = 0
+24:7/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+17:8/0 = 0
+18:8/0 = 0
+19:8/0 = 0
+20:8/0 = 0
+21:8/0 = 0
+22:8/0 = 0
+23:8/0 = 0
+24:8/0 = 0
+25:8/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+8:9/0 = 0
+9:9/0 = 0
+10:9/0 = 0
+11:9/0 = 0
+12:9/0 = 0
+13:9/0 = 0
+16:9/0 = 0
+17:9/0 = 0
+18:9/0 = 0
+19:9/0 = 0
+20:9/0 = 0
+21:9/0 = 0
+22:9/0 = 0
+23:9/0 = 0
+24:9/0 = 0
+25:9/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+3:10/0 = 0
+4:10/0 = 0
+5:10/0 = 0
+6:10/0 = 0
+8:10/0 = 0
+9:10/0 = 0
+10:10/0 = 0
+11:10/0 = 0
+12:10/0 = 0
+13:10/0 = 0
+15:10/0 = 0
+16:10/0 = 0
+17:10/0 = 0
+18:10/0 = 0
+19:10/0 = 0
+20:10/0 = 0
+21:10/0 = 0
+22:10/0 = 0
+23:10/0 = 0
+24:10/0 = 0
+25:10/0 = 0
+26:10/0 = 0
+1:11/0 = 0
+2:11/0 = 0
+3:11/0 = 0
+4:11/0 = 0
+5:11/0 = 0
+6:11/0 = 0
+8:11/0 = 0
+9:11/0 = 0
+10:11/0 = 0
+11:11/0 = 0
+12:11/0 = 0
+13:11/0 = 0
+16:11/0 = 0
+17:11/0 = 0
+18:11/0 = 0
+19:11/0 = 0
+20:11/0 = 0
+21:11/0 = 0
+22:11/0 = 0
+23:11/0 = 0
+24:11/0 = 0
+25:11/0 = 0
+26:11/0 = 0
+2:12/0 = 0
+3:12/0 = 0
+4:12/0 = 0
+7:12/0 = 0
+8:12/0 = 0
+9:12/0 = 0
+10:12/0 = 0
+11:12/0 = 0
+12:12/0 = 0
+13:12/0 = 0
+14:12/0 = 0
+16:12/0 = 0
+17:12/0 = 0
+18:12/0 = 0
+19:12/0 = 0
+20:12/0 = 0
+21:12/0 = 0
+22:12/0 = 0
+23:12/0 = 0
+24:12/0 = 0
+25:12/0 = 0
+26:12/0 = 0
+2:13/0 = 0
+3:13/0 = 0
+4:13/0 = 0
+5:13/0 = 0
+8:13/0 = 0
+9:13/0 = 0
+10:13/0 = 0
+11:13/0 = 0
+12:13/0 = 0
+13:13/0 = 0
+14:13/0 = 0
+16:13/0 = 0
+17:13/0 = 0
+18:13/0 = 0
+19:13/0 = 0
+20:13/0 = 0
+21:13/0 = 0
+22:13/0 = 0
+23:13/0 = 0
+24:13/0 = 0
+25:13/0 = 0
+26:13/0 = 0
+2:14/0 = 0
+3:14/0 = 0
+4:14/0 = 0
+9:14/0 = 0
+10:14/0 = 0
+12:14/0 = 0
+13:14/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_36hu2"]
+sources/0 = SubResource("TileSetAtlasSource_gdtkj")
+
+[node name="ParallaxLayer" type="ParallaxLayer"]
+position = Vector2(2, 26)
+motion_mirroring = Vector2(416, 0)
+
+[node name="Sky" type="Sprite2D" parent="."]
+position = Vector2(209, 96.75)
+scale = Vector2(1.12861, 1.0918)
+texture = ExtResource("1_64sgv")
+
+[node name="Mountains" type="Sprite2D" parent="."]
+position = Vector2(230, 230)
+scale = Vector2(2.49038, 1.50662)
+texture = ExtResource("2_qjlkn")
+
+[node name="Sky2" type="Sprite2D" parent="."]
+position = Vector2(1195.02, 95.2549)
+scale = Vector2(1.08165, 1.08012)
+texture = ExtResource("1_64sgv")
+
+[node name="Sky3" type="Sprite2D" parent="."]
+position = Vector2(707, 95.501)
+scale = Vector2(1.27375, 1.08985)
+texture = ExtResource("1_64sgv")
+
+[node name="Mountains2" type="Sprite2D" parent="."]
+position = Vector2(680, 227)
+scale = Vector2(2.30291, 1.53893)
+texture = ExtResource("2_qjlkn")
+
+[node name="Mountains3" type="Sprite2D" parent="."]
+position = Vector2(1169.47, 227)
+scale = Vector2(2.40899, 1.52617)
+texture = ExtResource("2_qjlkn")
+
+[node name="Mid-layer-a" type="Sprite2D" parent="."]
+position = Vector2(316, 321)
+scale = Vector2(1.64784, 1.99699)
+texture = ExtResource("3_fixrf")
+
+[node name="Mid-layer-b" type="Sprite2D" parent="."]
+position = Vector2(929, 328.5)
+scale = Vector2(1.43269, 1.90909)
+texture = ExtResource("4_t7xub")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+scale = Vector2(1.5, 1.5)
+tile_map_data = PackedByteArray("AAAYABIAAAAHAAwAAAAZAA8AAAAIAAkAAAAZABAAAAAIAAoAAAAZABEAAAAIAAsAAAAZABIAAAAIAAwAAAAZABMAAAAIAA0AAAAaAA4AAAAJAAgAAAAaAA8AAAAJAAkAAAAaABAAAAAJAAoAAAAaABEAAAAJAAsAAAAaABIAAAAJAAwAAAAaABMAAAAJAA0AAAAaABQAAAAJAA4AAAAbAA4AAAAKAAgAAAAbAA8AAAAKAAkAAAAbABAAAAAKAAoAAAAbABEAAAAKAAsAAAAbABIAAAAKAAwAAAAbABMAAAAKAA0AAAAbABQAAAAKAA4AAAAHAAkAAAACAAQAAAAHAAoAAAACAAUAAAAHAAsAAAACAAYAAAAHAAwAAAACAAcAAAAHAA0AAAACAAgAAAAHAA8AAAACAAoAAAAHABAAAAACAAsAAAAHABEAAAACAAwAAAAHABIAAAACAA0AAAAHABMAAAACAA4AAAAIAAgAAAADAAMAAAAIAAkAAAADAAQAAAAIAAoAAAADAAUAAAAIAAsAAAADAAYAAAAIAAwAAAADAAcAAAAIAA0AAAADAAgAAAAIAA4AAAADAAkAAAAIAA8AAAADAAoAAAAIABAAAAADAAsAAAAIABEAAAADAAwAAAAIABIAAAADAA0AAAAIABMAAAADAA4AAAAJAAgAAAAEAAMAAAAJAAkAAAAEAAQAAAAJAAoAAAAEAAUAAAAJAAsAAAAEAAYAAAAJAAwAAAAEAAcAAAAJAA0AAAAEAAgAAAAJAA4AAAAEAAkAAAAJAA8AAAAEAAoAAAAJABAAAAAEAAsAAAAJABEAAAAEAAwAAAAJABIAAAAEAA0AAAAJABMAAAAEAA4AAAAKAAkAAAAFAAQAAAAKAAoAAAAFAAUAAAAKAAwAAAAFAAcAAAAKAA0AAAAFAAgAAAAKAA8AAAAFAAoAAAAKABAAAAAFAAsAAAAKABIAAAAFAA0AAAA=")
+tile_set = SubResource("TileSet_36hu2")
